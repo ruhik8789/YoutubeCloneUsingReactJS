@@ -12,7 +12,7 @@ import profile_icon from '../../assets/jack.png'
 
 
 const Navbar = ({setSidebar}) => {
-    console.log('Sidebar function:',setSidebar);
+    // console.log('Sidebar function:',setSidebar);
   return (
     <nav className="flex-div">
       <div className="nav-left flex-div">

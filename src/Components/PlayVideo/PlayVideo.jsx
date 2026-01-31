@@ -13,8 +13,125 @@ const PlayVideo = () => {
     <div className="play-video">
       <video src={video1} controls autoPlay muted></video>
       <h3>Best YouTube Channel To Learn Web Development</h3>
+      <div className="play-video-info">
+        <p>1525 Views &bull; 2 days ago</p>
+        <div>
+          <span>
+            <img src={like} alt="" /> <p>244</p>
+          </span>
+          <span>
+            <img src={dislike} alt="" /> <p>12</p>
+          </span>
+          <span>
+            <img src={share} alt="" /> <p>share</p>
+          </span>
+          <span>
+            <img src={save} alt="" /> <p>save</p>
+          </span>
+        </div>
+      </div>
+      <hr />
+      <div className="publisher">
+        <img src={jack} alt="" />
+        <div>
+          <p>GreatStack</p>
+          <span>1M Subscribers</span>
+        </div>
+        <button>Subscribe</button>
+      </div>
+      <div className="vid-description">
+        <p>Channel that makes learning easy</p>
+        <p>Subscribe GreatStack to watch more tutorials on web development</p>
+        <hr />
+        <h4>130 Comments</h4>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              Jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information of
+              interconnected networks using standadized communication protocols.
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              Jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information of
+              interconnected networks using standadized communication protocols.
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              Jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information of
+              interconnected networks using standadized communication protocols.
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              Jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information of
+              interconnected networks using standadized communication protocols.
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="comment">
+          <img src={user_profile} alt="" />
+          <div>
+            <h3>
+              Jack Nicholson <span>1 day ago</span>
+            </h3>
+            <p>
+              A global computer network providing a variety of information of
+              interconnected networks using standadized communication protocols.
+            </p>
+            <div className="comment-action">
+              <img src={like} alt="" />
+              <span>244</span>
+              <img src={dislike} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default PlayVideo
